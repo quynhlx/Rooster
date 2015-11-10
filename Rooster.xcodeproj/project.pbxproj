@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D2245191BF1E61E00E695C7 /* KnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2245181BF1E61E00E695C7 /* KnowledgeViewController.swift */; };
+		8D22451F1BF1EC1600E695C7 /* KnowledgeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22451E1BF1EC1600E695C7 /* KnowledgeMenuView.swift */; };
+		8D2245211BF1EC2F00E695C7 /* KnowledgeMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D2245201BF1EC2F00E695C7 /* KnowledgeMenuView.xib */; };
 		8D2BCB8B1BF1AB4900236AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2BCB8A1BF1AB4900236AC8 /* AppDelegate.swift */; };
 		8D2BCB8E1BF1AB4900236AC8 /* Rooster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D2BCB8C1BF1AB4900236AC8 /* Rooster.xcdatamodeld */; };
 		8D2BCB901BF1AB4900236AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2BCB8F1BF1AB4900236AC8 /* ViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D2245181BF1E61E00E695C7 /* KnowledgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowledgeViewController.swift; sourceTree = "<group>"; };
+		8D22451E1BF1EC1600E695C7 /* KnowledgeMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowledgeMenuView.swift; sourceTree = "<group>"; };
+		8D2245201BF1EC2F00E695C7 /* KnowledgeMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KnowledgeMenuView.xib; sourceTree = "<group>"; };
 		8D2BCB851BF1AB4900236AC8 /* Rooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2BCB891BF1AB4900236AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D2BCB8A1BF1AB4900236AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +92,9 @@
 				8D2BCB961BF1AB4900236AC8 /* LaunchScreen.xib */,
 				8D2BCB8C1BF1AB4900236AC8 /* Rooster.xcdatamodeld */,
 				8D2BCB881BF1AB4900236AC8 /* Supporting Files */,
+				8D2245181BF1E61E00E695C7 /* KnowledgeViewController.swift */,
+				8D22451E1BF1EC1600E695C7 /* KnowledgeMenuView.swift */,
+				8D2245201BF1EC2F00E695C7 /* KnowledgeMenuView.xib */,
 			);
 			path = Rooster;
 			sourceTree = "<group>";
@@ -197,6 +206,7 @@
 			files = (
 				8D2BCB931BF1AB4900236AC8 /* Main.storyboard in Resources */,
 				8D2BCB981BF1AB4900236AC8 /* LaunchScreen.xib in Resources */,
+				8D2245211BF1EC2F00E695C7 /* KnowledgeMenuView.xib in Resources */,
 				8D2BCB951BF1AB4900236AC8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +228,8 @@
 				8D2BCB901BF1AB4900236AC8 /* ViewController.swift in Sources */,
 				8D2BCB8E1BF1AB4900236AC8 /* Rooster.xcdatamodeld in Sources */,
 				8D2BCB8B1BF1AB4900236AC8 /* AppDelegate.swift in Sources */,
+				8D22451F1BF1EC1600E695C7 /* KnowledgeMenuView.swift in Sources */,
+				8D2245191BF1E61E00E695C7 /* KnowledgeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +427,7 @@
 				8D2BCBA91BF1AB4900236AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D2BCBAA1BF1AB4900236AC8 /* Build configuration list for PBXNativeTarget "RoosterTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				8D2BCBAC1BF1AB4900236AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

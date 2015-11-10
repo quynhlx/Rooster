@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KnowledgeMenuView" customModule="Rooster" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonLearnmath" destination="g5s-Jd-LtL" id="vbv-c9-V10"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="KnowledgeMenuView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="86"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5s-Jd-LtL">
+                    <rect key="frame" x="8" y="8" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="4y2-Tu-Kbw"/>
+                        <constraint firstAttribute="height" constant="70" id="sfg-jV-ijA"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="hoctoan_01">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bal-OJ-1V1">
+                    <rect key="frame" x="86" y="8" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="dE0-As-X36"/>
+                        <constraint firstAttribute="width" constant="70" id="g5y-pT-Ym2"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="kienthuc_01">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2td-VL-JIs">
+                    <rect key="frame" x="164" y="8" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="3pl-7r-3wy"/>
+                        <constraint firstAttribute="height" constant="70" id="dxq-4S-e1F"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="baobao_01">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diO-fz-MbU">
+                    <rect key="frame" x="242" y="8" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="a9g-pw-bUO"/>
+                        <constraint firstAttribute="height" constant="70" id="qDe-AT-vTl"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="kienthuc_01">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bal-OJ-1V1" firstAttribute="leading" secondItem="g5s-Jd-LtL" secondAttribute="trailing" constant="8" id="1nv-lL-SQ3"/>
+                <constraint firstItem="diO-fz-MbU" firstAttribute="width" secondItem="g5s-Jd-LtL" secondAttribute="width" id="3Iz-xO-gna"/>
+                <constraint firstItem="diO-fz-MbU" firstAttribute="leading" secondItem="2td-VL-JIs" secondAttribute="trailing" constant="8" id="7Cd-Ie-WR9"/>
+                <constraint firstItem="Bal-OJ-1V1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="7yb-Tt-ble"/>
+                <constraint firstItem="diO-fz-MbU" firstAttribute="width" secondItem="2td-VL-JIs" secondAttribute="width" id="WbI-SC-CrK"/>
+                <constraint firstItem="diO-fz-MbU" firstAttribute="height" secondItem="2td-VL-JIs" secondAttribute="height" id="ahL-Lu-xH8"/>
+                <constraint firstItem="g5s-Jd-LtL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="bCu-kI-uEF"/>
+                <constraint firstItem="g5s-Jd-LtL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="bvl-sW-AeN"/>
+                <constraint firstItem="2td-VL-JIs" firstAttribute="leading" secondItem="Bal-OJ-1V1" secondAttribute="trailing" constant="8" id="dAu-qk-sDZ"/>
+                <constraint firstItem="diO-fz-MbU" firstAttribute="width" secondItem="Bal-OJ-1V1" secondAttribute="width" id="dq8-6c-2iL"/>
+                <constraint firstItem="diO-fz-MbU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="g9q-3Q-wjf"/>
+                <constraint firstItem="diO-fz-MbU" firstAttribute="height" secondItem="Bal-OJ-1V1" secondAttribute="height" id="u47-QD-9Gz"/>
+                <constraint firstItem="diO-fz-MbU" firstAttribute="height" secondItem="g5s-Jd-LtL" secondAttribute="height" id="v2n-EW-jxX"/>
+                <constraint firstItem="2td-VL-JIs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="xAi-oe-I3Y"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="400" y="235"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="baobao_01" width="70" height="70"/>
+        <image name="hoctoan_01" width="70" height="70"/>
+        <image name="kienthuc_01" width="70" height="70"/>
+    </resources>
+</document>
